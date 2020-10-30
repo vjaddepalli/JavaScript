@@ -1,0 +1,52 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Math Table</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="../bootstrap/css/style.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="./app.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-dark">
+            <a href="#" class="navbar-brand">Math Table</a>
+        </nav>
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-head bg-primary text-white text-center">
+                            <h2>Math Table</h2>
+                        </div>
+                        <div class="card-body bg-light">
+                            <form action="">
+                                <div class="form-group">
+                                    <input type="number" id="number" placeholder="Enter Number">
+                                    <input type="range" class="form-control-range" id="range" min="1" max="10">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-body bg-light">
+                            <h1><span id="num-one" class="display-4 num">1</span> <span class="display-4 icon">X</span> <span id="num-two" class="display-4 num">1</span> <span class="display-4 icon">=</span> <span id="num-three" class="display-4 num">1</span></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../bootstrap/js/jquery.js"></script>
+        <script src="../bootstrap/js/popper.js"></script>
+        <script src="../bootstrap/js/bootstrap.js"></script>
+        <script src="../bootstrap/js/mdb.js"></script>
+        <script src="./app.js"></script>
+    </body>
+    </html>

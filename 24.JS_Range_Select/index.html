@@ -1,0 +1,53 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS Range Select</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="../bootstrap/css/style.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="./app.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-dark mb-3">
+            <a href="#" class="navbar-brand">Range Select</a>
+        </nav>
+
+        <!--Change Password-->
+        <div class="container">
+            <div class="row">
+                 <div class="col-md-6">
+                     <div class="card">
+                         <div class="card-header bg-info text-white">
+                            <h3>Select an Amount</h3>
+                         </div>
+                         <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <form>
+                                        <div class="form-group">
+                                          <input type="range" class="form-control-range" id="range" min="1000" max="100000">
+                                        </div>
+                                      </form>
+                                </div>
+                                <div class="col-md-4">
+                                    <h3 class="text-info">&#8377; <span id="amount"></span></h3>
+                                </div>
+                            </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+
+        
+        <script src="../bootstrap/js/jquery.js"></script>
+        <script src="../bootstrap/js/popper.js"></script>
+        <script src="../bootstrap/js/bootstrap.js"></script>
+        <script src="../bootstrap/js/mdb.js"></script>
+        <script src="./app.js"></script>
+    </body>
+    </html>

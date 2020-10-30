@@ -1,0 +1,63 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Digital Watch</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="../bootstrap/css/style.css">
+    <style>
+        .card{
+            border-radius: 10px;
+            box-shadow: 0 0 10px black;
+        }
+    </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-dark mb-4">
+            <a href="#" class="navbar-brand">Digital Watch</a>
+        </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card bg-info text-white text-center">
+                        <div class="card-body">
+                            <h5>Asia/Kolkata</h5>
+                            <h4 class="display-4">INDIA</h4>
+                            <h3 id="india-date"></h2>
+                            <h1 id="india-time"></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-primary text-white text-center">
+                        <div class="card-body">
+                            <h5>America/New_York</h5>
+                            <h4 class="display-4">USA</h4>
+                            <h3 id="usa-date"></h2>
+                            <h1 id="usa-time"></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-danger text-white text-center">
+                        <div class="card-body">
+                            <h5>Asia/Shanghai</h5>
+                            <h4 class="display-4">CHINA</h4>
+                            <h3 id="china-date"></h2>
+                            <h1 id="china-time"></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="../bootstrap/js/jquery.js"></script>
+        <script src="../bootstrap/js/popper.js"></script>
+        <script src="../bootstrap/js/bootstrap.js"></script>
+        <script src="../bootstrap/js/mdb.js"></script>
+        <script src="./app.js"></script>
+    </body>
+    </html>

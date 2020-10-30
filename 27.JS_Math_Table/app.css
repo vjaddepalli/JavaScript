@@ -1,0 +1,17 @@
+.form-control-range {
+    width: 50%;
+    display: inline;
+    margin-left: 20px;
+  }
+  h1{
+      text-align: center;
+  }
+  .num{
+      margin:10px 20px;
+      background-color: #4285F4;
+      color: white;
+      padding: 10px 25px;
+  }
+  .icon{
+      color: #4285F4;
+  }
